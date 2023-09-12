@@ -1,0 +1,10 @@
+.container {
+  grid-area: logo;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin: 0;
+  }
+}

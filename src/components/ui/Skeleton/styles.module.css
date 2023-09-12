@@ -1,0 +1,51 @@
+.skeletonParagraph {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.line {
+  height: 14px;
+  border-radius: 7px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: #dddbdd;
+}
+
+.line::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    #00000000 0,
+    #00000000 20%,
+    #00000010 60%,
+    #00000000
+  );
+  animation: shimmer 2s infinite;
+  content: "";
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.lineOne {
+  width: 100%;
+}
+
+.lineTwo {
+  width: 80%;
+}
+
+.lineThree {
+  width: 30%;
+}

@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+  grid-area: buy;
+}
+
+.button {
+  width: 100%;
+}

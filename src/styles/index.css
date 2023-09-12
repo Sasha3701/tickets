@@ -1,0 +1,18 @@
+@import "./reset.css";
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-main-text);
+}
+
+:root {
+  --color-orange: #ff5f1f;
+  --color-hover-orange: #e35335;
+  --color-blue: #0096ff;
+  --color-hover-blue: #f0ffff;
+  --color-white: #ffffff;
+  --color-grey: #e5e4e2;
+  --color-main-text: #36454f;
+}

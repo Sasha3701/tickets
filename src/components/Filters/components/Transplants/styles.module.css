@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+}
